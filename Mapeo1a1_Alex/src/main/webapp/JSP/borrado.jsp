@@ -25,6 +25,7 @@
                             <td>${item.nombre} ${item.ape1} ${item.ape2}</td>
                         </tr>
                         <tr>
+                            <td></td>
                             <td><small>${item.direccion.calle} ${item.direccion.numero} ${item.direccion.poblacion} ${item.direccion.provincia}</small></td>
                         </tr>
                     </c:forEach>
